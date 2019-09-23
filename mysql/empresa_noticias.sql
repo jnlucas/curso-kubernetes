@@ -35,11 +35,6 @@ CREATE TABLE `noticias` (
 -- Dumping data for table `noticias`
 --
 
-LOCK TABLES `noticias` WRITE;
-/*!40000 ALTER TABLE `noticias` DISABLE KEYS */;
-INSERT INTO `noticias` VALUES (1,'img1567683980.png','Novo curso','testando noticia'),(3,'img1567816278.png','novo motorola z3','A Ãºnica Ã¡rea que eu acho, que vai exigir muita atenÃ§Ã£o nossa, e aÃ­ eu jÃ¡ aventei a hipÃ³tese de atÃ© criar um ministÃ©rio. Ã‰ na Ã¡rea de... Na Ã¡rea... Eu diria assim, como uma espÃ©cie de analogia com o que acontece na Ã¡rea agrÃ­cola.\r\n\r\nAi vocÃª fala o seguinte: \"- Mas vocÃªs acabaram isso?\" Vou te falar: -\"NÃ£o, estÃ¡ em andamento!\" Tem obras que \"vai\" durar pra depois de 2010. Agora, por isso, nÃ³s jÃ¡ nÃ£o desenhamos, nÃ£o comeÃ§amos a fazer projeto do que nÃ³s \"podÃªmo fazÃª\"? 11, 12, 13, 14... Por que Ã© que nÃ£o?\r\n\r\n'),(4,'img1567820774.png','TESTE','TESTE');
-/*!40000 ALTER TABLE `noticias` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
