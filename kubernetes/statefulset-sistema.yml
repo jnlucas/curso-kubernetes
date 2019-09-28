@@ -13,10 +13,15 @@ spec:
         name: aplicacao-sistema-pod-statefulset
     spec:
       containers:
-        - name: container-aplicacao-sistema-statefulset
-          image: jnlucas/noticia-alura:v2
+        - name: container-aplicacao-sistema-statefulset-v4
+          image: jnlucas/noticia-alura:v4
           ports:
             - containerPort: 80
+          lifecycle:
+            postStart:
+              exec:
+                command: ["sh","enviarMensagens.sh"]
+
           volumeMounts:
             - name: imagens
               mountPath: /var/www/html/uploads
